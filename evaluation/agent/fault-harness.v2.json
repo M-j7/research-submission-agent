@@ -1,0 +1,5 @@
+{
+  "version": "specialist-v2",
+  "role": "submission_requirements",
+  "note": "General 已改为无工具反馈角色；新合成工具故障场景改由有工具权限的规范 Agent 执行。这不是业务路由质量提升。既有 cases.zh.json 及冻结运行数据不迁移。"
+}

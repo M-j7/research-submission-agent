@@ -1,0 +1,65 @@
+# Proposed evaluation tests; kept outside active discovery while design is reviewed.
+import importlib
+import json
+from pathlib import Path
+import sys
+import tempfile
+import unittest
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+
+class RagEvaluationTests(unittest.TestCase):
+    def setUp(self):
+        try:
+            self.api = importlib.import_module('evaluation.rag.dataset')
+        except ModuleNotFoundError:
+            self.api = None
+        self.assertIsNotNone(self.api, 'RAG evaluation dataset implementation is missing')
+
+    def fixture(self):
+        parents = [{ 'chunk_id':'p1', 'text':'Abstracts require 150 to 250 words.',
+                     'metadata':{'title':'Guide','source_url':'https://example.org/guide'}}]
+        cases = [{'case_id':'abstract', 'zh':'摘要多少词？', 'en':'How many words?',
+                  'patterns':['150 to 250'], 'reference_zh':'150到250词', 'reference_en':'150 to 250 words'}]
+        return parents, cases
+
+    def test_bilingual_queries_share_source_labels_and_preserve_chinese(self):
+        parents, cases = self.fixture()
+        with tempfile.TemporaryDirectory() as d:
+            self.api.build_dataset(parents, cases, Path(d))
+            queries = self.api.read_jsonl(Path(d)/'queries.jsonl')
+            qrels = self.api.read_jsonl(Path(d)/'qrels.jsonl')
+            self.assertEqual(queries[0]['text'], '摘要多少词？')
+            self.assertEqual({r['corpus-id'] for r in qrels}, {'p1'})
+            self.assertEqual(len(qrels), 2)
+            self.assertEqual({r['language'] for r in queries}, {'zh','en'})
+
+    def test_unmatched_evidence_is_rejected_instead_of_making_gold(self):
+        parents, cases = self.fixture()
+        cases[0]['patterns']=['not present']
+        with tempfile.TemporaryDirectory() as d:
+            with self.assertRaisesRegex(ValueError, 'support'):
+                self.api.build_dataset(parents,cases,Path(d))
+
+    def test_duplicate_parent_ids_are_rejected(self):
+        parents,cases=self.fixture()
+        with tempfile.TemporaryDirectory() as d:
+            with self.assertRaisesRegex(ValueError,'duplicate'):
+                self.api.build_dataset(parents+parents,cases,Path(d))
+
+    def test_rank_scores_preserve_order_and_reject_duplicate_parent_ids(self):
+        self.assertEqual(self.api.ranking_to_run(['p2','p1']), {'p2':2.0,'p1':1.0})
+        with self.assertRaisesRegex(ValueError,'duplicate'):
+            self.api.ranking_to_run(['p1','p1'])
+
+    def test_collection_requires_every_query_even_failed_queries(self):
+        rows=[{'query_id':'q1','status':'failed','parent_ids':[]}]
+        with self.assertRaisesRegex(ValueError,'coverage'):
+            self.api.validate_collection(rows,{'q1','q2'})
+        self.api.validate_collection(rows,{'q1'})
+
+
+if __name__=='__main__':
+    unittest.main()

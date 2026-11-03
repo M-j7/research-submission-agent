@@ -1,0 +1,5 @@
+# Add to the existing isolated evaluation environment, NOT the app environment.
+ragas==0.4.3
+langchain-openai==1.7.2
+instructor==1.17.0
+langchain-community==0.4.1

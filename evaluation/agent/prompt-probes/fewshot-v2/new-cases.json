@@ -1,0 +1,14 @@
+[
+  {"id":"new-01-scope","message":"我的工作是机器人关节故障诊断，怎样判断它是否属于 IEEE Access 的征稿范围？","history":[],"expected_intents":["C01"]},
+  {"id":"new-02-layout","message":"IEEE Access 稿件文末介绍作者个人经历的那一段，应采用怎样的排版？","history":[],"expected_intents":["C02"]},
+  {"id":"new-03-novel-material","message":"投稿附带一个交互式网页演示，可以只提供在线地址，不上传网页文件吗？","history":[],"expected_intents":["C03"]},
+  {"id":"new-04-authorship","message":"一位同事没有参与研究，只帮忙支付了发表费用，可以把他列为作者吗？","history":[],"expected_intents":["C04"]},
+  {"id":"new-05-platform","message":"投稿系统中关联作者研究者账号的按钮点了没反应，怎样排查？","history":[],"expected_intents":["C05"]},
+  {"id":"new-06-revision","message":"IEEE Access 编辑给了修改意见，我应怎样逐条回应审稿人的质疑？","history":[],"expected_intents":["C06"]},
+  {"id":"new-07-refund","message":"IEEE Access 同一篇文章的发表费被重复扣了两次，重复部分能否退回？","history":[],"expected_intents":["C07"]},
+  {"id":"new-08-published-correction","message":"文章已经正式上线，才发现一个数据表数值写错，应申请发表后更正还是撤回？","history":[],"expected_intents":["C08"]},
+  {"id":"new-09-resubmit","message":"收到拒绝决定后，我打算修改再交原刊，怎样确认是否允许重新提交以及次数限制？","history":[],"expected_intents":["C09"]},
+  {"id":"new-10-multi","message":"参考文献怎样排版？另外，编辑要求的返修意见应该怎样逐条回应？","history":[],"expected_intents":["C02","C06"]},
+  {"id":"new-11-topic-switch","message":"费用先不讨论。稿件被拒后，申请复核需要符合哪些条件？","history":[{"role":"user","content":"发表费用怎么交？"},{"role":"assistant","content":"需要核对期刊收费与支付说明。"}],"expected_intents":["C09"]},
+  {"id":"new-12-ambiguous","message":"那就取消吧。","history":[{"role":"user","content":"我正在考虑撤稿，也有一笔待支付费用。"},{"role":"assistant","content":"你想确认撤稿事宜还是付款事宜？"}],"expected_intents":[],"expected_fallback":"unclear_request"}
+]

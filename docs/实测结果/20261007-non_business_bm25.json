@@ -1,0 +1,872 @@
+{
+  "date": "2026-10-07",
+  "method": "local_bm25_only",
+  "template_count": 75,
+  "note": "9条人工合成烟雾测试，仅观察匹配结果；无JEV或真实Embedding调用，不是独立准确率评测。",
+  "cases": [
+    {
+      "message": "您好，能聊一下吗？",
+      "result": {
+        "source": "bm25",
+        "score_type": "bm25",
+        "selected_intent": "C10",
+        "selected_name": "非业务交流与范围外请求",
+        "scores": {
+          "C01": 0,
+          "C02": 0,
+          "C03": 0,
+          "C04": 0,
+          "C05": 0,
+          "C06": 0,
+          "C07": 0,
+          "C08": 0,
+          "C09": 0,
+          "C10": 5.481517723769069
+        },
+        "matched_examples": {
+          "C01": null,
+          "C02": null,
+          "C03": null,
+          "C04": null,
+          "C05": null,
+          "C06": null,
+          "C07": null,
+          "C08": null,
+          "C09": null,
+          "C10": "您好，请问在吗？"
+        },
+        "ranked_options": [
+          {
+            "intent": "C10",
+            "name": "非业务交流与范围外请求",
+            "score": 5.481517723769069,
+            "example": "您好，请问在吗？"
+          },
+          {
+            "intent": "C01",
+            "name": "期刊范围与适配",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C02",
+            "name": "稿件格式与写作规范",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C03",
+            "name": "投稿材料与声明",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C04",
+            "name": "学术伦理与作者署名",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C05",
+            "name": "投稿平台操作与故障",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C06",
+            "name": "审稿流程、状态与返修",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C07",
+            "name": "费用、减免与退款",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C08",
+            "name": "录用后出版与版权许可",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C09",
+            "name": "撤稿、转投与申诉",
+            "score": 0,
+            "example": null
+          }
+        ],
+        "latency_ms": 0.17
+      }
+    },
+    {
+      "message": "谢谢你的耐心解释",
+      "result": {
+        "source": "bm25",
+        "score_type": "bm25",
+        "selected_intent": "C10",
+        "selected_name": "非业务交流与范围外请求",
+        "scores": {
+          "C01": 0,
+          "C02": 0,
+          "C03": 0,
+          "C04": 0,
+          "C05": 0,
+          "C06": 0,
+          "C07": 0,
+          "C08": 0,
+          "C09": 0,
+          "C10": 15.5576824945229
+        },
+        "matched_examples": {
+          "C01": null,
+          "C02": null,
+          "C03": null,
+          "C04": null,
+          "C05": null,
+          "C06": null,
+          "C07": null,
+          "C08": null,
+          "C09": null,
+          "C10": "谢谢你的帮助"
+        },
+        "ranked_options": [
+          {
+            "intent": "C10",
+            "name": "非业务交流与范围外请求",
+            "score": 15.5576824945229,
+            "example": "谢谢你的帮助"
+          },
+          {
+            "intent": "C01",
+            "name": "期刊范围与适配",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C02",
+            "name": "稿件格式与写作规范",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C03",
+            "name": "投稿材料与声明",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C04",
+            "name": "学术伦理与作者署名",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C05",
+            "name": "投稿平台操作与故障",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C06",
+            "name": "审稿流程、状态与返修",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C07",
+            "name": "费用、减免与退款",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C08",
+            "name": "录用后出版与版权许可",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C09",
+            "name": "撤稿、转投与申诉",
+            "score": 0,
+            "example": null
+          }
+        ],
+        "latency_ms": 0.12
+      }
+    },
+    {
+      "message": "你可以提供哪些帮助？",
+      "result": {
+        "source": "bm25",
+        "score_type": "bm25",
+        "selected_intent": "C10",
+        "selected_name": "非业务交流与范围外请求",
+        "scores": {
+          "C01": 1.4874996518088095,
+          "C02": 1.4371480011909392,
+          "C03": 1.8034213260177783,
+          "C04": 2.2005278700392528,
+          "C05": 0,
+          "C06": 0,
+          "C07": 1.4874996518088095,
+          "C08": 2.126040316141429,
+          "C09": 2.126040316141429,
+          "C10": 20.16228572629489
+        },
+        "matched_examples": {
+          "C01": "IEEE Access 接收哪些计算机领域的研究主题？",
+          "C02": "论文正文的篇幅和章节结构有哪些要求？",
+          "C03": "投稿信应该包含哪些内容？",
+          "C04": "同一篇论文可以同时投给两本期刊吗？",
+          "C05": null,
+          "C06": null,
+          "C07": "IEEE Access 发表费用是多少，包含哪些收费项目？",
+          "C08": "CC BY 许可下别人可以怎样使用我的文章？",
+          "C09": "稿件可以转投其他期刊吗，需要重新提交吗？",
+          "C10": "你能提供哪些帮助？"
+        },
+        "ranked_options": [
+          {
+            "intent": "C10",
+            "name": "非业务交流与范围外请求",
+            "score": 20.16228572629489,
+            "example": "你能提供哪些帮助？"
+          },
+          {
+            "intent": "C04",
+            "name": "学术伦理与作者署名",
+            "score": 2.2005278700392528,
+            "example": "同一篇论文可以同时投给两本期刊吗？"
+          },
+          {
+            "intent": "C08",
+            "name": "录用后出版与版权许可",
+            "score": 2.126040316141429,
+            "example": "CC BY 许可下别人可以怎样使用我的文章？"
+          },
+          {
+            "intent": "C09",
+            "name": "撤稿、转投与申诉",
+            "score": 2.126040316141429,
+            "example": "稿件可以转投其他期刊吗，需要重新提交吗？"
+          },
+          {
+            "intent": "C03",
+            "name": "投稿材料与声明",
+            "score": 1.8034213260177783,
+            "example": "投稿信应该包含哪些内容？"
+          },
+          {
+            "intent": "C01",
+            "name": "期刊范围与适配",
+            "score": 1.4874996518088095,
+            "example": "IEEE Access 接收哪些计算机领域的研究主题？"
+          },
+          {
+            "intent": "C07",
+            "name": "费用、减免与退款",
+            "score": 1.4874996518088095,
+            "example": "IEEE Access 发表费用是多少，包含哪些收费项目？"
+          },
+          {
+            "intent": "C02",
+            "name": "稿件格式与写作规范",
+            "score": 1.4371480011909392,
+            "example": "论文正文的篇幅和章节结构有哪些要求？"
+          },
+          {
+            "intent": "C05",
+            "name": "投稿平台操作与故障",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C06",
+            "name": "审稿流程、状态与返修",
+            "score": 0,
+            "example": null
+          }
+        ],
+        "latency_ms": 0.12
+      }
+    },
+    {
+      "message": "今天北京天气怎么样？",
+      "result": {
+        "source": "bm25",
+        "score_type": "bm25",
+        "selected_intent": "C10",
+        "selected_name": "非业务交流与范围外请求",
+        "scores": {
+          "C01": 0,
+          "C02": 2.284177161859599,
+          "C03": 0,
+          "C04": 0,
+          "C05": 2.284177161859599,
+          "C06": 0,
+          "C07": 2.0440931406426532,
+          "C08": 0,
+          "C09": 0,
+          "C10": 19.364491036182937
+        },
+        "matched_examples": {
+          "C01": null,
+          "C02": "参考文献引用格式应该怎么写？",
+          "C03": null,
+          "C04": null,
+          "C05": "上传稿件文件一直报错，怎么排查？",
+          "C06": null,
+          "C07": "已经支付的费用能否退回，退款怎么申请？",
+          "C08": null,
+          "C09": null,
+          "C10": "今天上海天气怎么样？"
+        },
+        "ranked_options": [
+          {
+            "intent": "C10",
+            "name": "非业务交流与范围外请求",
+            "score": 19.364491036182937,
+            "example": "今天上海天气怎么样？"
+          },
+          {
+            "intent": "C02",
+            "name": "稿件格式与写作规范",
+            "score": 2.284177161859599,
+            "example": "参考文献引用格式应该怎么写？"
+          },
+          {
+            "intent": "C05",
+            "name": "投稿平台操作与故障",
+            "score": 2.284177161859599,
+            "example": "上传稿件文件一直报错，怎么排查？"
+          },
+          {
+            "intent": "C07",
+            "name": "费用、减免与退款",
+            "score": 2.0440931406426532,
+            "example": "已经支付的费用能否退回，退款怎么申请？"
+          },
+          {
+            "intent": "C01",
+            "name": "期刊范围与适配",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C03",
+            "name": "投稿材料与声明",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C04",
+            "name": "学术伦理与作者署名",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C06",
+            "name": "审稿流程、状态与返修",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C08",
+            "name": "录用后出版与版权许可",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C09",
+            "name": "撤稿、转投与申诉",
+            "score": 0,
+            "example": null
+          }
+        ],
+        "latency_ms": 0.17
+      }
+    },
+    {
+      "message": "摘要的字数限制是多少？",
+      "result": {
+        "source": "bm25",
+        "score_type": "bm25",
+        "selected_intent": "C02",
+        "selected_name": "稿件格式与写作规范",
+        "scores": {
+          "C01": 0,
+          "C02": 7.620589192294844,
+          "C03": 0,
+          "C04": 0,
+          "C05": 0,
+          "C06": 0,
+          "C07": 6.2856214499510745,
+          "C08": 0,
+          "C09": 0,
+          "C10": 0
+        },
+        "matched_examples": {
+          "C01": null,
+          "C02": "IEEE Access 摘要最多允许多少词？",
+          "C03": null,
+          "C04": null,
+          "C05": null,
+          "C06": null,
+          "C07": "IEEE Access 发表费用是多少，包含哪些收费项目？",
+          "C08": null,
+          "C09": null,
+          "C10": null
+        },
+        "ranked_options": [
+          {
+            "intent": "C02",
+            "name": "稿件格式与写作规范",
+            "score": 7.620589192294844,
+            "example": "IEEE Access 摘要最多允许多少词？"
+          },
+          {
+            "intent": "C07",
+            "name": "费用、减免与退款",
+            "score": 6.2856214499510745,
+            "example": "IEEE Access 发表费用是多少，包含哪些收费项目？"
+          },
+          {
+            "intent": "C01",
+            "name": "期刊范围与适配",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C03",
+            "name": "投稿材料与声明",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C04",
+            "name": "学术伦理与作者署名",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C05",
+            "name": "投稿平台操作与故障",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C06",
+            "name": "审稿流程、状态与返修",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C08",
+            "name": "录用后出版与版权许可",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C09",
+            "name": "撤稿、转投与申诉",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C10",
+            "name": "非业务交流与范围外请求",
+            "score": 0,
+            "example": null
+          }
+        ],
+        "latency_ms": 0.15
+      }
+    },
+    {
+      "message": "你好，摘要最多多少词？",
+      "result": {
+        "source": "bm25",
+        "score_type": "bm25",
+        "selected_intent": "C02",
+        "selected_name": "稿件格式与写作规范",
+        "scores": {
+          "C01": 0,
+          "C02": 19.87406311473198,
+          "C03": 0,
+          "C04": 0,
+          "C05": 0,
+          "C06": 0,
+          "C07": 2.916647539064043,
+          "C08": 0,
+          "C09": 0,
+          "C10": 6.612332046368127
+        },
+        "matched_examples": {
+          "C01": null,
+          "C02": "IEEE Access 摘要最多允许多少词？",
+          "C03": null,
+          "C04": null,
+          "C05": null,
+          "C06": null,
+          "C07": "IEEE Access 发表费用是多少，包含哪些收费项目？",
+          "C08": null,
+          "C09": null,
+          "C10": "你好"
+        },
+        "ranked_options": [
+          {
+            "intent": "C02",
+            "name": "稿件格式与写作规范",
+            "score": 19.87406311473198,
+            "example": "IEEE Access 摘要最多允许多少词？"
+          },
+          {
+            "intent": "C10",
+            "name": "非业务交流与范围外请求",
+            "score": 6.612332046368127,
+            "example": "你好"
+          },
+          {
+            "intent": "C07",
+            "name": "费用、减免与退款",
+            "score": 2.916647539064043,
+            "example": "IEEE Access 发表费用是多少，包含哪些收费项目？"
+          },
+          {
+            "intent": "C01",
+            "name": "期刊范围与适配",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C03",
+            "name": "投稿材料与声明",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C04",
+            "name": "学术伦理与作者署名",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C05",
+            "name": "投稿平台操作与故障",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C06",
+            "name": "审稿流程、状态与返修",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C08",
+            "name": "录用后出版与版权许可",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C09",
+            "name": "撤稿、转投与申诉",
+            "score": 0,
+            "example": null
+          }
+        ],
+        "latency_ms": 0.11
+      }
+    },
+    {
+      "message": "谢谢，发表费用是多少？",
+      "result": {
+        "source": "bm25",
+        "score_type": "bm25",
+        "selected_intent": "C07",
+        "selected_name": "费用、减免与退款",
+        "scores": {
+          "C01": 0,
+          "C02": 3.5360978848157973,
+          "C03": 0,
+          "C04": 2.0301490782028924,
+          "C05": 0,
+          "C06": 0,
+          "C07": 17.342820319147627,
+          "C08": 0,
+          "C09": 2.2295598214780603,
+          "C10": 5.185894164840967
+        },
+        "matched_examples": {
+          "C01": null,
+          "C02": "IEEE Access 摘要最多允许多少词？",
+          "C03": null,
+          "C04": "会议论文扩展成期刊论文会被认定为重复发表吗？",
+          "C05": null,
+          "C06": null,
+          "C07": "IEEE Access 发表费用是多少，包含哪些收费项目？",
+          "C08": null,
+          "C09": "尚未发表的稿件可以主动撤稿吗，流程是什么？",
+          "C10": "谢谢你的帮助"
+        },
+        "ranked_options": [
+          {
+            "intent": "C07",
+            "name": "费用、减免与退款",
+            "score": 17.342820319147627,
+            "example": "IEEE Access 发表费用是多少，包含哪些收费项目？"
+          },
+          {
+            "intent": "C10",
+            "name": "非业务交流与范围外请求",
+            "score": 5.185894164840967,
+            "example": "谢谢你的帮助"
+          },
+          {
+            "intent": "C02",
+            "name": "稿件格式与写作规范",
+            "score": 3.5360978848157973,
+            "example": "IEEE Access 摘要最多允许多少词？"
+          },
+          {
+            "intent": "C09",
+            "name": "撤稿、转投与申诉",
+            "score": 2.2295598214780603,
+            "example": "尚未发表的稿件可以主动撤稿吗，流程是什么？"
+          },
+          {
+            "intent": "C04",
+            "name": "学术伦理与作者署名",
+            "score": 2.0301490782028924,
+            "example": "会议论文扩展成期刊论文会被认定为重复发表吗？"
+          },
+          {
+            "intent": "C01",
+            "name": "期刊范围与适配",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C03",
+            "name": "投稿材料与声明",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C05",
+            "name": "投稿平台操作与故障",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C06",
+            "name": "审稿流程、状态与返修",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C08",
+            "name": "录用后出版与版权许可",
+            "score": 0,
+            "example": null
+          }
+        ],
+        "latency_ms": 0.11
+      }
+    },
+    {
+      "message": "我的稿件出问题了",
+      "result": {
+        "source": "bm25",
+        "score_type": "bm25",
+        "selected_intent": "C09",
+        "selected_name": "撤稿、转投与申诉",
+        "scores": {
+          "C01": 3.1364217173257334,
+          "C02": 0,
+          "C03": 0,
+          "C04": 0,
+          "C05": 2.4589855544444195,
+          "C06": 2.55917964168636,
+          "C07": 0,
+          "C08": 2.817919436718712,
+          "C09": 5.204793427984371,
+          "C10": 0
+        },
+        "matched_examples": {
+          "C01": "我的自动化控制研究适合投 IEEE Access 吗？",
+          "C02": null,
+          "C03": null,
+          "C04": null,
+          "C05": "上传稿件文件一直报错，怎么排查？",
+          "C06": "稿件显示 Under Review 是什么审稿阶段？",
+          "C07": null,
+          "C08": "CC BY 许可下别人可以怎样使用我的文章？",
+          "C09": "尚未发表的稿件可以主动撤稿吗，流程是什么？",
+          "C10": null
+        },
+        "ranked_options": [
+          {
+            "intent": "C09",
+            "name": "撤稿、转投与申诉",
+            "score": 5.204793427984371,
+            "example": "尚未发表的稿件可以主动撤稿吗，流程是什么？"
+          },
+          {
+            "intent": "C01",
+            "name": "期刊范围与适配",
+            "score": 3.1364217173257334,
+            "example": "我的自动化控制研究适合投 IEEE Access 吗？"
+          },
+          {
+            "intent": "C08",
+            "name": "录用后出版与版权许可",
+            "score": 2.817919436718712,
+            "example": "CC BY 许可下别人可以怎样使用我的文章？"
+          },
+          {
+            "intent": "C06",
+            "name": "审稿流程、状态与返修",
+            "score": 2.55917964168636,
+            "example": "稿件显示 Under Review 是什么审稿阶段？"
+          },
+          {
+            "intent": "C05",
+            "name": "投稿平台操作与故障",
+            "score": 2.4589855544444195,
+            "example": "上传稿件文件一直报错，怎么排查？"
+          },
+          {
+            "intent": "C02",
+            "name": "稿件格式与写作规范",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C03",
+            "name": "投稿材料与声明",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C04",
+            "name": "学术伦理与作者署名",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C07",
+            "name": "费用、减免与退款",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C10",
+            "name": "非业务交流与范围外请求",
+            "score": 0,
+            "example": null
+          }
+        ],
+        "latency_ms": 0.15
+      }
+    },
+    {
+      "message": "这个怎么办？",
+      "result": {
+        "source": "bm25",
+        "score_type": "bm25",
+        "selected_intent": "C10",
+        "selected_name": "非业务交流与范围外请求",
+        "scores": {
+          "C01": 0,
+          "C02": 2.284177161859599,
+          "C03": 0,
+          "C04": 0,
+          "C05": 2.284177161859599,
+          "C06": 0,
+          "C07": 2.0440931406426532,
+          "C08": 0,
+          "C09": 0,
+          "C10": 3.6929634258417345
+        },
+        "matched_examples": {
+          "C01": null,
+          "C02": "参考文献引用格式应该怎么写？",
+          "C03": null,
+          "C04": null,
+          "C05": "上传稿件文件一直报错，怎么排查？",
+          "C06": null,
+          "C07": "已经支付的费用能否退回，退款怎么申请？",
+          "C08": null,
+          "C09": null,
+          "C10": "这个助手支持哪些功能？"
+        },
+        "ranked_options": [
+          {
+            "intent": "C10",
+            "name": "非业务交流与范围外请求",
+            "score": 3.6929634258417345,
+            "example": "这个助手支持哪些功能？"
+          },
+          {
+            "intent": "C02",
+            "name": "稿件格式与写作规范",
+            "score": 2.284177161859599,
+            "example": "参考文献引用格式应该怎么写？"
+          },
+          {
+            "intent": "C05",
+            "name": "投稿平台操作与故障",
+            "score": 2.284177161859599,
+            "example": "上传稿件文件一直报错，怎么排查？"
+          },
+          {
+            "intent": "C07",
+            "name": "费用、减免与退款",
+            "score": 2.0440931406426532,
+            "example": "已经支付的费用能否退回，退款怎么申请？"
+          },
+          {
+            "intent": "C01",
+            "name": "期刊范围与适配",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C03",
+            "name": "投稿材料与声明",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C04",
+            "name": "学术伦理与作者署名",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C06",
+            "name": "审稿流程、状态与返修",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C08",
+            "name": "录用后出版与版权许可",
+            "score": 0,
+            "example": null
+          },
+          {
+            "intent": "C09",
+            "name": "撤稿、转投与申诉",
+            "score": 0,
+            "example": null
+          }
+        ],
+        "latency_ms": 0.08
+      }
+    }
+  ]
+}

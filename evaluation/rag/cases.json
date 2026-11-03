@@ -1,0 +1,158 @@
+[
+  {
+    "case_id": "apc_amount", "category": "fees",
+    "zh": "IEEE Access 每篇文章的 APC 是多少，是否还要计入当地税费？",
+    "en": "What is the IEEE Access APC per article, and are applicable local taxes additional?",
+    "reference_zh": "根据知识库快照，APC 为每篇 2160 美元，另加适用的当地税费。",
+    "reference_en": "In the corpus snapshot, the APC is USD 2,160 per article plus applicable local taxes.",
+    "supports": [
+      {"parent_id": "1441bbfebc3db06e:00001", "quote": "The APC is $2,160 per article (plus applicable local taxes)"},
+      {"parent_id": "1441bbfebc3db06e:00002", "quote": "per article (plus applicable local taxes)"}
+    ]
+  },
+  {
+    "case_id": "member_discount", "category": "fees",
+    "zh": "IEEE Access 对 IEEE 会员和学会会员的 APC 折扣分别是多少，学生会员适用吗？",
+    "en": "What APC discounts does IEEE Access offer IEEE members and Society members, and do Student Members qualify?",
+    "reference_zh": "IEEE 会员通讯作者享 5% 折扣，兼具学会会员身份为 20%；学生及研究生学生会员不适用。",
+    "reference_en": "IEEE member corresponding authors receive 5%, or 20% with Society membership; Student and Graduate Student Members do not qualify.",
+    "supports": [{"parent_id": "1441bbfebc3db06e:00007", "quote": "Please note that this discount does not apply to Student or Graduate Student Members"}]
+  },
+  {
+    "case_id": "low_income_discount", "category": "fees",
+    "zh": "IEEE Access 的低收入国家 APC 优惠，是否要求所有作者都位于符合条件的国家？",
+    "en": "For IEEE Access low-income-country APC discounts, must all authors be located in an eligible country?",
+    "reference_zh": "是，优惠要求所有作者位于符合优惠条件的国家，低收入国家依据世界银行分类。",
+    "reference_en": "Yes. All authors must be located in a country eligible for a discount; low-income status follows the World Bank classification.",
+    "supports": [{"parent_id": "1441bbfebc3db06e:00008", "quote": "Discounts are only applied if all authors are located in a country eligible for a discount."}]
+  },
+  {
+    "case_id": "submission_format", "category": "format",
+    "zh": "IEEE Access 投稿稿件应采用什么排版格式，需要同时提交源文件和 PDF 吗？",
+    "en": "What manuscript format does IEEE Access require, and must both a source file and a PDF be submitted?",
+    "reference_zh": "使用指定模板，双栏、单倍行距；同时提交内容完全一致的 Word 或 LaTeX 源文件和 PDF。",
+    "reference_en": "Use the required IEEE Access template in double-column, single-spaced format; submit both Word or LaTeX source and a PDF with matching content.",
+    "supports": [
+      {"parent_id": "11f8608b845b3651:00002", "quote": "The manuscript should be prepared in a double column, single-spaced format"},
+      {"parent_id": "83659aec024de951:00002", "quote": "A Word or LaTex file and a PDF file are both required upon submission."}
+    ]
+  },
+  {
+    "case_id": "file_size", "category": "format",
+    "zh": "IEEE Access 投稿的稿件文件大小上限是多少？",
+    "en": "What is the maximum manuscript file size for IEEE Access submission?",
+    "reference_zh": "稿件文件不应超过 40 MB。", "reference_en": "Manuscript files should not exceed 40 MB.",
+    "supports": [
+      {"parent_id": "11f8608b845b3651:00002", "quote": "File sizes should not exceed 40MB."},
+      {"parent_id": "11f8608b845b3651:00003", "quote": "File sizes should not exceed 40MB."},
+      {"parent_id": "83659aec024de951:00002", "quote": "File sizes should not exceed 40MB."}
+    ]
+  },
+  {
+    "case_id": "orcid", "category": "submission",
+    "zh": "IEEE Access 投稿作者需要关联 ORCID 吗，ORCID 资料是否必须公开并填写？",
+    "en": "Must the submitting author for IEEE Access link an ORCID, and must the ORCID profile be public and populated?",
+    "reference_zh": "投稿作者账户须关联 ORCID ID，资料须公开可见并填写。",
+    "reference_en": "The submitting author must have an ORCID ID associated with the account, with a publicly visible and populated profile.",
+    "supports": [
+      {"parent_id": "11f8608b845b3651:00003", "quote": "The ORCID profile must be publicly visible and populated."},
+      {"parent_id": "83659aec024de951:00002", "quote": "The ORCID profile must be publicly visible and populated."},
+      {"parent_id": "83659aec024de951:00003", "quote": "The ORCID profile must be publicly visible and populated."}
+    ]
+  },
+  {
+    "case_id": "biographies", "category": "format",
+    "zh": "IEEE Access 投稿需要所有作者的简介吗，简介放在文章哪里？",
+    "en": "Does IEEE Access require biographies for all authors at submission, and where should they appear?",
+    "reference_zh": "所有作者都需要简短简介，放在文章参考文献之后。",
+    "reference_en": "Short biographies are required for all authors and should appear within the article below the references.",
+    "supports": [
+      {"parent_id": "11f8608b845b3651:00003", "quote": "biographies of all authors should be included directly within the article below the references section."},
+      {"parent_id": "83659aec024de951:00003", "quote": "biographies of all authors should be included directly within the article below the references section."}
+    ]
+  },
+  {
+    "case_id": "keywords", "category": "submission",
+    "zh": "IEEE Access 投稿时最少和最多分别选择多少个关键词？",
+    "en": "What are the minimum and maximum numbers of manuscript keywords for IEEE Access submission?",
+    "reference_zh": "最少 3 个，最多 10 个。", "reference_en": "A minimum of 3 and a maximum of 10 keywords.",
+    "supports": [
+      {"parent_id": "11f8608b845b3651:00004", "quote": "a minimum of 3 (and a maximum of 10) manuscript keywords"},
+      {"parent_id": "83659aec024de951:00004", "quote": "a minimum of 3 (and a maximum of 10) manuscript keywords"},
+      {"parent_id": "83659aec024de951:00005", "quote": "a minimum of 3 (and a maximum of 10) manuscript keywords"}
+    ]
+  },
+  {
+    "case_id": "video", "category": "submission",
+    "zh": "IEEE Access 的附带视频最大多大，是否必须随稿提交并接受同行评审？",
+    "en": "What is the maximum size of an IEEE Access video, and must it accompany the submission for peer review?",
+    "reference_zh": "视频最大 100 MB，须随稿提交并与文章一起接受同行评审。",
+    "reference_en": "Videos must not exceed 100 MB and must be included with the submission for peer review with the article.",
+    "supports": [
+      {"parent_id": "11f8608b845b3651:00004", "quote": "all video must be peer reviewed with the article."},
+      {"parent_id": "11f8608b845b3651:00005", "quote": "all video must be peer reviewed with the article."},
+      {"parent_id": "83659aec024de951:00005", "quote": "all video must be peer reviewed with the article."},
+      {"parent_id": "471594c01f03ef34:00003", "quote": "The video file should not exceed 100 MB"}
+    ]
+  },
+  {
+    "case_id": "page_limit", "category": "format",
+    "zh": "IEEE Access 有严格页数上限吗，通常建议控制在多少页以内？",
+    "en": "Does IEEE Access impose a strict page limit, and what page count does it normally recommend?",
+    "reference_zh": "没有严格页数上限，但强烈建议控制在 20 页以内以便阅读。",
+    "reference_en": "There is no page limit, but keeping the page count under 20 pages is strongly recommended for readability.",
+    "supports": [
+      {"parent_id": "1441bbfebc3db06e:00001", "quote": "we do strongly recommend keeping the page count under 20 pages"},
+      {"parent_id": "11f8608b845b3651:00006", "quote": "we strongly recommend keeping the page count under 20 pages"},
+      {"parent_id": "83659aec024de951:00005", "quote": "we strongly recommend keeping the page count under 20 pages"},
+      {"parent_id": "83659aec024de951:00006", "quote": "we strongly recommend keeping the page count under 20 pages"}
+    ]
+  },
+  {
+    "case_id": "resubmission", "category": "workflow",
+    "zh": "IEEE Access 被拒但允许更新重投时，最多能重投几次，需要怎样回复审稿意见？",
+    "en": "After an IEEE Access rejection allowing updates and resubmission, how many resubmissions are allowed and how must reviewer concerns be addressed?",
+    "reference_zh": "只允许重投一次，须提交逐点回复文件，说明每条审稿意见及如何处理。",
+    "reference_en": "Only one resubmission is permitted; provide a detailed point-to-point document explaining each reviewer concern and how it was addressed.",
+    "supports": [{"parent_id": "b93e6d8e32744367:00010", "quote": "Authors are only permitted to resubmit their article once."}]
+  },
+  {
+    "case_id": "preprints", "category": "policy",
+    "zh": "IEEE Access 是否允许作者在个人网站或提供时间戳的预印本服务器上发布预印本？",
+    "en": "Does IEEE Access allow authors to post preprints on a personal website or a timestamped preprint server?",
+    "reference_zh": "允许在作者网站、雇主网站，或接受同行评论并提供发表时间戳的服务器发布预印本。",
+    "reference_en": "Preprints are allowed on authors' or employers' websites, or on a server inviting constructive comments and providing a publication timestamp.",
+    "supports": [{"parent_id": "471594c01f03ef34:00007", "quote": "Preprints of authors’ articles to their own web site, their employer’s site, or to another server that invites constructive comment from colleagues and provides a publication time stamp are allowed."}]
+  },
+  {
+    "case_id": "duplicate_submission", "category": "policy",
+    "zh": "投给 IEEE Access 的文章，可以同时交给另一本期刊评审吗？",
+    "en": "Can an article submitted to IEEE Access simultaneously be under peer review at another journal?",
+    "reference_zh": "不可以，文章不得同时在其他期刊接受评审或投稿。",
+    "reference_en": "No. Articles submitted to IEEE Access must not be under consideration for peer review at another journal.",
+    "supports": [
+      {"parent_id": "471594c01f03ef34:00007", "quote": "should not be under consideration for peer review at any other journal"},
+      {"parent_id": "11f8608b845b3651:00004", "quote": "The article should not be submitted elsewhere at the same time."},
+      {"parent_id": "83659aec024de951:00004", "quote": "The article should not be submitted elsewhere at the same time."}
+    ]
+  },
+  {
+    "case_id": "ai_disclosure", "category": "policy",
+    "zh": "IEEE Access 论文包含 AI 生成内容时，应在哪里披露，需说明哪些使用信息？",
+    "en": "Where must AI-generated content in an IEEE Access article be disclosed, and what usage details must be identified?",
+    "reference_zh": "在致谢中披露，标明所用 AI 系统、涉及的具体章节，并简要解释使用程度。",
+    "reference_en": "Disclose it in the acknowledgments, identify the AI system and specific affected sections, and briefly explain the extent of its use.",
+    "supports": [
+      {"parent_id": "471594c01f03ef34:00009", "quote": "shall be disclosed in the acknowledgments section"},
+      {"parent_id": "83659aec024de951:00002", "quote": "shall be disclosed in the acknowledgements section"}
+    ]
+  },
+  {
+    "case_id": "review_timeline", "category": "workflow",
+    "zh": "IEEE Access 从投稿到录用或拒稿决定平均多久，从投稿到发表通常多久？",
+    "en": "How long does IEEE Access take on average from submission to an accept/reject decision, and typically from submission to publication?",
+    "reference_zh": "平均约 4 周收到录用或拒稿决定；投稿到发表通常为 4 至 6 周，也取决于作者提交最终文件的时间。",
+    "reference_en": "On average, the decision takes 4 weeks; submission to publication typically takes 4 to 6 weeks, depending on when authors provide final files.",
+    "supports": [{"parent_id": "62bcc19bd77f1774:00002", "quote": "peer review process takes 4 weeks from submission to an accept/reject decision notification."}]
+  }
+]

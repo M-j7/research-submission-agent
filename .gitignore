@@ -1,0 +1,58 @@
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python and JavaScript environments
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
+/frontend/dist/
+*.egg-info/
+
+# Local state. Anchor runtime to the root: src/.../runtime is application code.
+/.cache/
+/.superpowers/
+/runtime/
+/data/
+*.sqlite3
+*.sqlite3-*
+*.sqlite
+*.db
+*.log
+
+# Third-party source documents and generated corpus/index files
+/官方原始资料库/
+/SimpleDirectoryReader试读预览/
+/解析试验/**/结果/
+/evaluation/rag/data/
+
+# Local execution traces, model outputs, and generated reports
+/evaluation/rag/runs/
+/evaluation/rag/generation-runs/
+/evaluation/reports/
+/evaluation/agent/runs/
+/evaluation/agent/ablation-runs/
+/evaluation/agent/qwen-case-runs/
+/evaluation/agent/routing-probes/
+/evaluation/agent/business-probes/
+/evaluation/agent/clarity-probes/*/
+!/evaluation/agent/clarity-probes/20261022-paired-01/
+/evaluation/agent/clarity-probes/20261022-paired-01/*
+!/evaluation/agent/clarity-probes/20261022-paired-01/plan.json
+/evaluation/agent/prompt-probes/*/
+!/evaluation/agent/prompt-probes/fewshot-v2/
+/evaluation/agent/prompt-probes/fewshot-v2/*
+!/evaluation/agent/prompt-probes/fewshot-v2/baseline-questions.json
+!/evaluation/agent/prompt-probes/fewshot-v2/history-ablation-cases.json
+!/evaluation/agent/prompt-probes/fewshot-v2/new-cases.json
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+[
+  {"id":"history-dependent-01","group":"added_context_probe","history_kind":"dependent","message":"就前面说的那个上限。","history":[{"role":"user","content":"我想确认IEEE Access摘要的字数限制。"},{"role":"assistant","content":"你想确认字数上限，还是其他格式要求？"}],"expected_intents":["C02"],"expected_roles":["submission_requirements"]},
+  {"id":"history-dependent-02","group":"added_context_probe","history_kind":"dependent","message":"是的，上限是多少？","history":[{"role":"user","content":"我准备投稿一个补充视频，需要确认文件大小要求。"},{"role":"assistant","content":"你想核实这个附件允许的最大体积吗？"}],"expected_intents":["C03"],"expected_roles":["submission_requirements"]},
+  {"id":"history-dependent-03","group":"added_context_probe","history_kind":"dependent","message":"对，要符合哪些条件？","history":[{"role":"user","content":"我想确认期刊的APC减免资格。"},{"role":"assistant","content":"你想了解申请费用减免的适用条件吗？"}],"expected_intents":["C07"],"expected_roles":["publication_fees"]},
+  {"id":"history-dependent-04","group":"added_context_probe","history_kind":"dependent","message":"对，要符合哪些条件？","history":[{"role":"user","content":"稿件被拒了，我想对编辑决定提出申诉。"},{"role":"assistant","content":"你想了解申诉需要满足的条件吗？"}],"expected_intents":["C09"],"expected_roles":["editorial_workflow"]}
+]

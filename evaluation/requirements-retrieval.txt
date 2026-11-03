@@ -1,0 +1,5 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.8.0+cpu
+evalscope==1.13.0
+mteb==2.26.1
+pytrec-eval-terrier==0.5.10

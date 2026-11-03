@@ -1,0 +1,65 @@
+{
+  "C01": [
+    "我的自动化控制研究适合投 IEEE Access 吗？",
+    "IEEE Access 接收哪些计算机领域的研究主题？",
+    "这本期刊是否接收综述类稿件？",
+    "一篇新的机器学习应用论文应该如何选择投稿期刊？",
+    "Does the journal scope include robotics and interdisciplinary research?"
+  ],
+  "C02": [
+    "IEEE Access 摘要最多允许多少词？",
+    "论文正文的篇幅和章节结构有哪些要求？",
+    "参考文献引用格式应该怎么写？",
+    "图表分辨率、图注和论文模板排版有什么规范？",
+    "What is the abstract word limit and required manuscript format?"
+  ],
+  "C03": [
+    "首次投稿需要提交哪些文件和附件？",
+    "投稿信应该包含哪些内容？",
+    "补充材料要准备成什么文件，是否需要说明？",
+    "利益冲突声明和数据可用性声明需要写什么？",
+    "Which submission documents and declaration forms are required?"
+  ],
+  "C04": [
+    "同一篇论文可以同时投给两本期刊吗？",
+    "会议论文扩展成期刊论文会被认定为重复发表吗？",
+    "作者署名顺序如何确定，投稿后能增加作者吗？",
+    "涉及人体参与者的研究需要哪些伦理审批？",
+    "Can authors use generative AI for writing, and how should its use be disclosed?"
+  ],
+  "C05": [
+    "投稿系统登录失败，验证码也收不到，怎么处理？",
+    "上传稿件文件一直报错，怎么排查？",
+    "系统生成的 PDF 无法打开，如何重新生成？",
+    "投稿页面的表单无法提交，应该如何操作？",
+    "How can I reset my submission account password or fix a file upload error?"
+  ],
+  "C06": [
+    "稿件显示 Under Review 是什么审稿阶段？",
+    "编辑处理和同行评议通常需要多久？",
+    "Major Revision 和 Minor Revision 分别是什么意思？",
+    "审稿人要求补实验，我应该怎样修改并回复意见？",
+    "How should I prepare a response to reviewers and meet the revision deadline?"
+  ],
+  "C07": [
+    "IEEE Access 发表费用是多少，包含哪些收费项目？",
+    "发表费用应该什么时候支付，支持哪些付款方式？",
+    "学生或经济困难作者能申请费用减免吗？",
+    "已经支付的费用能否退回，退款怎么申请？",
+    "I was charged twice for publication; how can I dispute the payment?"
+  ],
+  "C08": [
+    "论文录用后，校样确认和正式出版有哪些步骤？",
+    "版权转让与开放获取许可协议有什么区别？",
+    "CC BY 许可下别人可以怎样使用我的文章？",
+    "录用稿能否上传到个人主页或机构知识库？",
+    "What is the policy for correcting or retracting an already published article?"
+  ],
+  "C09": [
+    "尚未发表的稿件可以主动撤稿吗，流程是什么？",
+    "我想撤回正在审稿的论文，需要满足哪些条件？",
+    "稿件可以转投其他期刊吗，需要重新提交吗？",
+    "论文被拒后修改了，可以向同一期刊再次投稿吗？",
+    "How can I appeal an editorial rejection or request reconsideration?"
+  ]
+}
